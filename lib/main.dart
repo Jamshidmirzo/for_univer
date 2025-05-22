@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:lesson_four/currency_screen.dart';
 import 'package:lesson_four/dream_screen.dart';
 import 'package:lesson_four/shop_screen.dart';
 
@@ -13,9 +14,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Dream UI',
-      home: const ShopScreen(),
+      home: const CurrencyScreen(),
       debugShowCheckedModeBanner: false,
     );
   }
 }
-
